@@ -29,3 +29,9 @@ https://blog.csdn.net/m0_37257009/article/details/96878618?utm_medium=distribute
 分享一个前后端分离的web项目（vue+spring boot）
 
 https://blog.csdn.net/smollsnail/article/details/79025689?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+
+
+
+
+spring-cloud-examples
+https://github.com/ityouknow/spring-cloud-examples
