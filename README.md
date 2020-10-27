@@ -73,6 +73,9 @@ V部落博客管理平台开源啦! Vue+SpringBoot强强联合！
 
 https://mp.weixin.qq.com/s/VRzcunh9flTJ_EZSBJrfYw
 
+
+喜大普奔，两个开源的 Spring Boot + Vue 前后端分离项目可以在线体验了
+http://www.javaboy.org/2019/0920/springboot-vue-online.html
 https://github.com/lenve/vhr
 https://github.com/lenve/VBlog
 
