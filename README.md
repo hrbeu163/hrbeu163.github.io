@@ -73,6 +73,8 @@ V部落博客管理平台开源啦! Vue+SpringBoot强强联合！
 
 https://mp.weixin.qq.com/s/VRzcunh9flTJ_EZSBJrfYw
 
+https://github.com/lenve/vhr
+https://github.com/lenve/VBlog
 
 
 
