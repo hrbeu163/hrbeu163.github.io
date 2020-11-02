@@ -85,4 +85,12 @@ https://github.com/lenve/VBlog
 http://www.javaboy.org/2020/0925/springsecurity-rbac.html
 
 
+**2020/11/02 update**
+
+Vue+SpringBoot实现的实体书购买平台
+https://github.com/liuzhengwei127/Ebook
+
+基于Spring-boot和bootstrap搭建的商城系统
+https://github.com/vito16/shop
+
 
