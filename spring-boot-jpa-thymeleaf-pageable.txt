@@ -1,0 +1,43 @@
+SpringBoot + thymeleaf ??ï™?
+https://www.cnblogs.com/data-magnifier/p/11511404.html
+
+
+dao:
+Page<UserModel> findByName(String name, Pageable pageable);  
+
+controller:
+
+    @RequestMapping(value = "/index")
+    public ModelAndView index(@RequestParam(value = "start", defaultValue = "0") Integer start,
+                        @RequestParam(value = "limit", defaultValue = "12") Integer limit){
+ 
+        Integer year = Calendar.getInstance().get(Calendar.YEAR);
+        Integer djq = Calendar.getInstance().get(Calendar.MONTH)+1;
+ 
+        QkInfo qkInfo = qkInfoRepository.findByYearAndDjq(year,djq);
+        start = start < 0 ? 0 : start;
+ 
+        Sort sort = new Sort(Sort.DEFAULT_DIRECTION, "id");
+        Pageable pageable = PageRequest.of(start, limit, sort);
+        Page<Article> page= articleRepository.findAllByQkID(qkInfo.getId(),pageable);
+
+
+        ModelAndView mav = new ModelAndView("index");
+        mav.addObject("page", page);
+        mav.addObject("year",year);
+        mav.addObject("djq",djq);
+        Date date = qkInfo.getDate();
+        DateFormat dateFormat = DateFormat.getDateInstance();
+        mav.addObject("date",dateFormat.format(date));
+        mav.addObject("shang","è„àÍä˙");
+        mav.addObject("xia","");
+        return mav;
+    }
+ 
+html:
+<div>
+           <a th:href="@{/index(start=0)}">[first]</a>&nbsp;&nbsp;
+                                        <a th:if="${not page.isFirst()}" th:href="@{/index(start=${page.number-1})}">[pre]</a>&nbsp;&nbsp;
+                                        <a th:if="${not page.isLast()}" th:href="@{/index(start=${page.number+1})}">[next]</a>&nbsp;&nbsp;
+                                        <a th:href="@{/index(start=${page.totalPages-1})}">[last]</a>
+</div
