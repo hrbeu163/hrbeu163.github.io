@@ -100,9 +100,13 @@ http://www.springboot.wiki
 
 http://www.springcloud.wiki
 
-**开源项目EL-ADMIN 管理系统**
+**2020/11/10add 开源项目EL-ADMIN 管理系统**
 
 https://github.com/elunez/eladmin
 
 https://github.com/elunez/eladmin-web
+
+【原】无脑操作：IDEA + maven + Shiro + SpringBoot + JPA + Thymeleaf实现基础认证权限
+
+https://blog.csdn.net/ahilll/article/details/83341836
 
