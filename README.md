@@ -110,3 +110,8 @@ https://github.com/elunez/eladmin-web
 
 https://blog.csdn.net/ahilll/article/details/83341836
 
+**SpringBoot+Shiro+JWT实现权限管理**
+
+http://www.cocoachina.com/articles/32386
+
+
