@@ -100,7 +100,8 @@ http://www.springboot.wiki
 
 http://www.springcloud.wiki
 
-**开源项目EL-ADMIN 管理系统
+**开源项目EL-ADMIN 管理系统**
+
 https://github.com/elunez/eladmin
 
 https://github.com/elunez/eladmin-web
