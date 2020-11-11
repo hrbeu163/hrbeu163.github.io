@@ -114,4 +114,10 @@ https://blog.csdn.net/ahilll/article/details/83341836
 
 http://www.cocoachina.com/articles/32386
 
+**2020/11/11**
 
+spring boot shiro 
+
+http://www.ityouknow.com/springboot/2017/06/26/spring-boot-shiro.html
+
+https://www.iteye.com/blog/412887952-qq-com-2299777
